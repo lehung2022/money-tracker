@@ -1,0 +1,46 @@
+.Expense-Filter {
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  background: rgb(56, 56, 56);
+}
+.Total-Am-Box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.FLBL {
+  margin: 10px;
+  color: white;
+}
+.OPT {
+  width: 100px;
+  margin: 10px;
+  outline: 0;
+  border: 0;
+}
+.TM {
+  margin: 10px;
+  color: white;
+}
+.TAB1 {
+  width: 500px;
+}
+@media screen and (max-width: 850px) {
+  .Expense-Filter {
+    flex-direction: column;
+  }
+  .Total-Am-Box {
+    margin: 5px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .Total-Am-Box:last-child {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}

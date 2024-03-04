@@ -1,0 +1,39 @@
+.CBOX1 {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  height: 100px;
+  width: 7px;
+}
+.CBOX2 {
+  background: rgb(2, 0, 69);
+  position: relative;
+  height: 100px;
+}
+.CBOX3 {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  background-color: rgb(255, 255, 255);
+  width: 6.5px;
+}
+.CBOX4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+  margin-top: 5px;
+}
+@media screen and (max-width: 425px) {
+  .CBOX1 {
+    width: 5px;
+    margin: 5px;
+  }
+  .CBOX3 {
+    width: 4.2px;
+  }
+  .CBOX4 {
+    font-size: 8px;
+  }
+}

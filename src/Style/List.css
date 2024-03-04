@@ -1,0 +1,81 @@
+.List-Box {
+  margin: 20px;
+  padding: 10px;
+  height: 200px;
+  /* width: 600px; */
+  overflow: scroll;
+  border-radius: 10px;
+  background: rgb(56, 56, 56);
+  /* display: block; */
+}
+.List-Box::-webkit-scrollbar {
+  display: none;
+}
+.List-Item {
+  border: 2px solid white;
+  margin: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+}
+.Exp-Box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Date-Price {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Date-Box {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  align-items: center;
+}
+.Price-Box {
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  align-items: center;
+}
+.price {
+  margin-right: 5px;
+}
+.Btn-Box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.BTN {
+  width: 100px;
+  height: 30px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.EDT {
+  background: rgb(160, 96, 255);
+}
+.DEL {
+  background: rgb(255, 85, 85);
+}
+.H3N {
+  display: block;
+  text-align: center;
+  margin: 10px auto;
+  font-size: 18px;
+  font-weight: 500;
+}
+@media screen and (max-width: 500px) {
+  .Exp-Box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}

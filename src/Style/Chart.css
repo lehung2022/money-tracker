@@ -1,0 +1,10 @@
+.chart {
+  margin: 20px;
+  padding: 10px;
+  background: rgb(56, 56, 56);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
