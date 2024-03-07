@@ -1,9 +1,10 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faIndianRupeeSign,
   faTrashCan,
   faPen,
+  faDongSign,
+  faDollarSign
 } from "@fortawesome/free-solid-svg-icons";
 import "../../Style/List.css";
 const List = (props) => {
@@ -60,7 +61,7 @@ const List = (props) => {
                     <p className="price">{item.eprice}</p>
                     <p>
                       <FontAwesomeIcon
-                        icon={faIndianRupeeSign}
+                        icon={faDongSign}
                         size="sm"
                         style={{ color: "white" }}
                       />
